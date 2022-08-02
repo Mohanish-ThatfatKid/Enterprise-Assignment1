@@ -74,7 +74,6 @@ class Umpire{
 
 
 public class Assignment2 {
-    Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         Umpire ump = new Umpire();
         ump.guesserNumber();
