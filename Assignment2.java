@@ -69,9 +69,7 @@ class Umpire{
                 System.out.println("Player " + count + " won the Game");
             }
             else{
-                if(count == PlayersNum.length && i != numFromguesser){
-                System.out.println(" Game lost!!!");}
-
+                System.out.println(" Game lost!!!");
             }
         }
         }
