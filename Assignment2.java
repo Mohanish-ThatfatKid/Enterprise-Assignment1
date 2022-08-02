@@ -62,7 +62,7 @@ class Umpire{
     }
 
     public void findingWinner(){
-       int count = 0;
+        int count = 0;
         int tempnumb = 0;
         for(int i: PlayersNum){
             count += 1;
@@ -71,12 +71,25 @@ class Umpire{
                 System.out.println("Player " + count + " won the Game");
             }
             else{
-                if(count == PlayersNum.length && tempnumb == 0)
-                {
-                System.out.println("Game lost!!!");
-                }
+                if(count == PlayersNum.length && tempnumb == 0){
+                System.out.println("Game lost!!!");}
 
             }
+        }
+        // for(int i  =0 ; i<PlayersNum.length ;i++){
+        //     count += 1;
+            
+        //     if(numFromguesser == PlayersNum[i] || (count == PlayersNum.length && numFromguesser == PlayersNum[count-1])){
+        //         tempnumb +=1;
+        //         System.out.println("Player "+ count + " won");
+        //     }
+        //     else{
+        //         if(tempnumb == 0 && count == PlayersNum.length){
+        //             System.out.println("Game lost");
+        //         }
+        //     }
+        // }
+        }
     }
 
 
